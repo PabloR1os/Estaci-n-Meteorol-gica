@@ -4,11 +4,11 @@
 #include <Adafruit_AHTX0.h>
 
 // --- Configuración de Red WiFi ---
-const char* ssid = "WALTERRIOS";
-const char* password = "vivaBUENOSAIRESCHICO44";
+const char* ssid = "NOMBRE_DE_LA_RED";
+const char* password = "CONTRASEÑA";
 
 // --- Dirección IP de la computadora ejecutando Node-RED ---
-const char* serverUrl = "http://192.168.1.79:1880/clima";
+const char* serverUrl = "http://192.168.1.XX:1880/clima";
 
 Adafruit_AHTX0 aht;
 const int RESET_PIN = D6;
