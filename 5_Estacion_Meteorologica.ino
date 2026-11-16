@@ -7,9 +7,9 @@
 #include <Adafruit_BMP085.h>
 
 // --- Configuración de Red WiFi ---
-const char* ssid = "Claro2667796";
-const char* password = "30DF8D2333D0";
-const char* serverUrl = "http://192.168.1.72:1880/clima"; // Ajusta con la IP de tu PC
+const char* ssid = "NOMBRE_DE_RED_WIFI";
+const char* password = "CONTRASEÑA_DE_WIFI";
+const char* serverUrl = "http://192.168.1.XX:1880/clima"; // Ajusta con la IP de tu PC
 
 // --- Instancias de Sensores ---
 Adafruit_AHTX0 aht;
